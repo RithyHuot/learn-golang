@@ -43,8 +43,8 @@ const (
 )
 
 func main() {
-	// not allow to set a constant that require something run at runtime
-	// const piConst float64 = math.Sin(1.57)
+	// not allow to set a constant to a value that need to be computed at runtime
+	// i.e. const piConst float64 = math.Sin(1.57)
 	const myConst int = 42
 	fmt.Printf("%+v %T\n", myConst, myConst)
 	fmt.Printf("%+v %T\n", a, a) // 0

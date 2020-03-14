@@ -38,12 +38,12 @@ var (
 )
 
 func main() {
-	// use when you need to don't need to initialize a value
+	// use when you don't need to initialize a value
 	// var i int
 	// i = 42
 
 	/* use when you want more control over the type. Such as wanting the
-	 * to be a float vs int
+	 * variable to be a float vs int
 	 */
 	// var j float32 = 27
 
